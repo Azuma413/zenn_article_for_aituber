@@ -1,0 +1,2 @@
+# zenn_article_for_aituber
+zennの記事を共同で書くためのリポジトリ
