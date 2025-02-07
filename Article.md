@@ -14,7 +14,7 @@
 
 <適当にそれっぽい画像を挿入>
 ## 全体システム
-<アーキテクチャ図を挿入>
+![architecture](images/architecture.png)
 
 <システム全体の概要について述べる. Gemini API in Vertex AIとGCEを利用していることはそれとなく強調する>
 
