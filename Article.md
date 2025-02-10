@@ -7,7 +7,6 @@
 
 
 
-<明らかに長い>
 ## 課題とアプローチ
 ChatGPTを始めとする高度な対話AIの登場により、私たちはこれまで以上に容易く知りたい情報を得ることができるようになりました。一方で、これらのAIの返答は必ずしも正確なものとは限らず、所謂ハルシネーションの問題は，対話AIの使用における大きな懸念となっています。私たちは、この問題に対して<b>複数のAIエージェントと使用者がインタラクティブにコミュニケーションして正しい情報を模索していく</b>アプローチを提案します。
 
@@ -62,14 +61,30 @@ UnityアプリケーションにはWebRTCを用いてクラウド上のエージ
 
 <システムの拡張性，運用可能性，費用対効果について強調する>
 
+### browser-use
+
+### 音声合成
+
+### フロントエンド
+
+### 分析・可視化
+
+### etc
+
+
 <こまごまとした実装というよりは，ツールを効果的に活用している事を強調したほうがよさそう>
 
 <文字数に余裕があれば，個々の要素に着目して説明を行う>
 
-## 実際の動作
-<iframe width="996" height="560" src="https://www.youtube.com/embed/eCUj13cCylE" title="AI Vtuberによるディベート" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<何が起きているかの簡単な説明>
+
+## 実際の動作
+
+<iframe width="996" height="560" src="https://www.youtube.com/embed/sW598JXSX7s" title="AI Vtuberによるディベート 1.3倍速" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+こちらの動画は，実際に本プロジェクトのシステムを用いて，YouTubeで配信を行った時の様子です．\
+最初はYouTube配信のコメントに反応しつつ，雑談を行っています．\
+その後，視聴者から議題が与えられると，その議題に沿ってディベートを開始します．ブラウザ等を用いて情報収集を行い，柔軟に論理を構築している様子が分かります．
 
 ## まとめ
 本プロジェクトでは、マルチエージェントによるディベートを通じて、批判的な観点から情報の精査を行い、信頼性の高い情報収集を支援できることをデモンストレーションしました。特に、AIエージェントと人間がより自然に相互コミュニケーションを取れる環境を提供することを目指し、YouTubeという日常的に利用されるプラットフォーム上で、ユーザーフレンドリーなバーチャルアバターを用いたライブ配信形式を採用しました。この形式により、AIエージェントが単なる無機質なコンソール上の存在ではなく、あたかも人格を持つコラボレーターのように感じられる体験を提供し、将来的に人間とAIが共に作業する環境の在り方を示唆しています。
