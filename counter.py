@@ -15,4 +15,4 @@ if __name__ == "__main__":
     char_count = count_characters(file_path)
     
     if char_count is not None:
-        print(f"Number of characters in {file_path}: {char_count}")
+        print(f"Number of characters in {file_path}: {char_count}/6000")
